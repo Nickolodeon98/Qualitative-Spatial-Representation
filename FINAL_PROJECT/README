@@ -1,0 +1,95 @@
+The pynput should be installed using the following command:
+
+pip install pynput
+
+To use the program, simply run the python program main.py:
+
+python client.py
+
+Then the command line interface is shown as the following:
+
+WELCOME! This is a spatial representation program.
+**************************************************
+Enter 1 to start using the program
+Enter 2 to load the previous representation
+Enter 3 to terminate the program
+**************************************************
+>>>
+
+After entering 1 to start the program, follow the instructions to give inputs.
+The maximum coordinates as well as the maximum widths and heights are 19 and the minimum is 1 for coordinates, 2 for width and height.
+
+-----------------------------Phase 1--------------------------------
+After giving every input, there are 8 relations you can visualise.
+
+1. dc
+- RCC-8 relation 'disconnected'
+- Simply type 'dc' on command line interface (only in lower case)
+
+2. ec
+- RCC-8 relation 'externally connected'
+- Simply type 'ec' on command line interface (only in lower case)
+
+3. po
+- RCC-8 relation 'partially overlaps'
+- Simply type 'po' on command line interface (only in lower case)
+
+4. tpp
+- RCC-8 relation 'tangential proper part'
+- Simply type 'tpp' on command line interface (only in lower case)
+
+5. itpp
+- RCC-8 relation 'inverted tangential proper part'
+- Simply type 'itpp' on command line interface (only in lower case)
+
+6. ntpp
+- RCC-8 relation 'non-tangential proper part'
+- Simply type 'ntpp' on command line interface (only in lower case)
+
+7. intpp
+- RCC-8 relation 'inverted non-tangential proper part'
+- Simply type 'intpp' on command line interface (only in lower case)
+
+8. eq
+- RCC-8 relation 'equal'
+- Simply type 'eq' on command line interface (only in lower case)
+
+-----------------------------Phase 2--------------------------------
+After entering one of the commands, the following menu appears:
+
+***************************************************
+Enter 1 to visualise this relation  
+Enter 2 to try a different relation
+Enter 3 to add one more region in this relation
+Enter 4 to go back to the previous menu
+Enter 5 to terminate the program
+***************************************************
+>>>
+
+Follow the instructions that show up after entering one of the options.
+
+Option 1: While the plot is appearing, in order to prompt another menu and go back to the beginning of phase 2, press space bar.
+Option 2: The program goes back to phase 1
+Option 3: The following shows up:
+
+The region has been successfully added!
+Where do you want to add a new region to?
+**********************************
+1. A
+2. B
+**********************************
+>>>
+
+Choose any region you want to add a new region to. Then the following appears:
+
+***************************************************
+What relation would you like a new region to have?
+***************************************************
+>>>
+
+Type the name of relation (one of 8 commands introduced in phase 1),
+then you are redirected to the beginning of the phase 2.
+
+Option 4: The program goes back to phase 1. Same as option 2.
+Option 5: The program terminates.
+
